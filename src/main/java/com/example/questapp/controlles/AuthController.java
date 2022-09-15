@@ -94,6 +94,5 @@ public class AuthController {
             response.setMessage("refresh token is not valid.");
             return new ResponseEntity<>(response, HttpStatus.UNAUTHORIZED);
         }
-
     }
 }
